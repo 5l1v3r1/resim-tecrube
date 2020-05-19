@@ -1,0 +1,170 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Magick.NET-Q16-x64/7.17.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard20/Magick.NET-Q16-x64.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard20/Magick.NET-Q16-x64.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/Magick.Native-Q16-x64.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/Magick.Native-Q16-x64.dll.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/Magick.Native-Q16-x64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Magick.NET-Q16-x64/7.17.0.1": {
+      "sha512": "MsYE2z78aBhVujwX/38a4wL/MaxqubHHIATRnjrJXE4gWtDfQZaRE5O9twKSBoZB9PckJOBM/xcz9qCteJyAGQ==",
+      "type": "package",
+      "path": "magick.net-q16-x64/7.17.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Copyright.txt",
+        "Magick.NET.icon.png",
+        "build/net20/Magick.NET-Q16-x64.targets",
+        "build/net40/Magick.NET-Q16-x64.targets",
+        "lib/net20/Magick.NET-Q16-x64.dll",
+        "lib/net20/Magick.NET-Q16-x64.xml",
+        "lib/net40/Magick.NET-Q16-x64.dll",
+        "lib/net40/Magick.NET-Q16-x64.xml",
+        "lib/netstandard13/Magick.NET-Q16-x64.dll",
+        "lib/netstandard13/Magick.NET-Q16-x64.xml",
+        "lib/netstandard20/Magick.NET-Q16-x64.dll",
+        "lib/netstandard20/Magick.NET-Q16-x64.xml",
+        "magick.net-q16-x64.7.17.0.1.nupkg.sha512",
+        "magick.net-q16-x64.nuspec",
+        "runtimes/linux-x64/native/Magick.Native-Q16-x64.dll.so",
+        "runtimes/osx-x64/native/Magick.Native-Q16-x64.dll.dylib",
+        "runtimes/win-x64/native/Magick.Native-Q16-x64.dll"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Magick.NET-Q16-x64 >= 7.17.0.1",
+      "Newtonsoft.Json >= 12.0.3"
+    ]
+  },
+  "packageFolders": {
+    "/Users/abdulsametileri/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/abdulsametileri/RiderProjects/HayratYardimLink/HayratYardimLink/HayratYardimLink.csproj",
+      "projectName": "HayratYardimLink",
+      "projectPath": "/Users/abdulsametileri/RiderProjects/HayratYardimLink/HayratYardimLink/HayratYardimLink.csproj",
+      "packagesPath": "/Users/abdulsametileri/.nuget/packages/",
+      "outputPath": "/Users/abdulsametileri/RiderProjects/HayratYardimLink/HayratYardimLink/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/abdulsametileri/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Magick.NET-Q16-x64": {
+            "target": "Package",
+            "version": "[7.17.0.1, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

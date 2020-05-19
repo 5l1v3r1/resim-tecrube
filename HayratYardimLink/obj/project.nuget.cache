@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "j1284eINfwDSTAD5ARxLTjuyLwXPHssk2EKQGN6LmexcMPvNyzB3lryc4IOAsZfWY1c2kaTQvFoVb0o3rF02qg==",
+  "success": true,
+  "projectFilePath": "/Users/abdulsametileri/RiderProjects/HayratYardimLink/HayratYardimLink/HayratYardimLink.csproj",
+  "expectedPackageFiles": [
+    "/Users/abdulsametileri/.nuget/packages/magick.net-q16-x64/7.17.0.1/magick.net-q16-x64.7.17.0.1.nupkg.sha512",
+    "/Users/abdulsametileri/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
